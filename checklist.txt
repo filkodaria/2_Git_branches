@@ -1,0 +1,36 @@
+ID №	        Checks	                     Status	 Comments
+Book_apart_1	Check the location field 
+                for Cyrillic alphabet	      Passed	
+Book_apart_2	Check the location field 
+                for Roman alphabet	      Passed	
+Book_apart_3	Check the location field 
+                for numbers                 Passed	
+Book_apart_4	Check the location field 
+                for special signs	      Failed	 The system doesn’t check correctly.
+                                                       The search runs, but without 
+                                                       required signes result
+Book_apart_5	Check the date picker 
+                for one day stay	      Passed	
+Book_apart_6	Check the date picker 
+                for an extended stay	      Passed	
+Book_apart_7	Check the date picker 
+                for an earlier date 
+                than current                Not run	 There is not a such 
+                                                       possibility
+Book_apart_8	Check the date picker 
+                for a later date (day, 
+                month, year) than current   Passed	
+Book_apart_9	Check the guests field 
+                for correct data	      Passed	
+Book_apart_10	Check the guests field  
+                for enormous data (>30)     Not run	 There is not a such possibility
+Book_apart_11	Check the guests field 
+                for 0 adult/room	      Not run	 There is not a such possibility
+Book_apart_12	Check the guests field 
+                for kids’ ages input	      Passed	
+Book_apart_13	Check checkboxes 
+                individually	Passed	
+Book_apart_14	Check checkboxes together    Passed	
+Book_apart_15	Check the button “Search” 
+                validity	              Passed	
+
