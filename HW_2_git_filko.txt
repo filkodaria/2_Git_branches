@@ -28,6 +28,10 @@ git push -u origin SQL
 git push -u origin Charles
 git push -u origin Mobile_Testing
 
+OR
+
+git push -u origin --all
+
 3. В ветке Bug Reports сделать текстовый документ со структурой багрепорта
 git checkout Bug_Reports
 touch bugreport.txt
